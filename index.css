@@ -1,0 +1,382 @@
+.navbar{
+    display: flex;
+    background-color: rgb(9, 9, 9);
+    /* border-radius:100px;  */
+    position:sticky; 
+}
+.TechShop{
+    display: flex;
+    color: rgb(232, 226, 226);
+    align-items: center;
+    margin-left: 5%;
+    font-size: xx-large;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 1000px;
+}
+.icons{
+    /* color: white; */
+    display: flex;
+    gap: 50px;
+}
+.search{
+    color: rgb(218, 211, 211);
+}
+.cart{
+    color: rgb(223, 218, 218);
+}
+.user{
+    color: rgb(226, 219, 219);
+}
+/* .intro{
+    margin-bottom: 400px;
+} */
+ .intro{
+    margin-left: 100px;
+ }
+.boatimg1{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 250px;
+    padding-left: 100px;
+}
+.priceing{
+    color: white;
+    display: flex;
+    font-size: xx-large;
+    padding-left: 50px;
+} 
+.strikethrough{
+    color: white;
+    text-decoration: line-through;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-size: x-large;
+}
+.text{
+    font-size: x-large;
+    padding-left: 50px;
+    /* margin-top: 200px; */
+}
+.text
+.button1{
+    padding-left: 50px;
+}
+.shopnow{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.shopnow:hover{
+    background-color: aquamarine;
+}
+/* .dot{
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 900px;
+    gap: 8px;
+} */
+/* .dot:hover{
+    color: red; */
+.header{
+    /* margin-bottom: 200px; */
+    margin-top: 200px;
+}
+.productcards{
+    display: flex;
+}
+/* .headsection1 {
+    display: flex;
+    /* justify-content: center;
+    padding-top: 100px;
+    color: white;
+} */
+ .productcard1{
+    margin-left: 50px;
+ }
+.headsection1 h2{
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.productcard1 img{
+    display: flex;
+    margin-left: 40px;
+}
+.JBL{
+    color: white;
+    display: flex;
+     margin-left: 35px; 
+     margin-top: 200px;
+   /* padding-left: 5px;  */
+    font-size: medium;
+}
+.sports{
+    color: white;
+    display: flex;
+    margin-left: 60px;
+    bottom: 60px;
+}
+.pricing{
+       color: white;
+      margin-left: 70px; 
+}
+.actualPrice{
+    color: red;
+}
+.productcard2{
+     margin-left: 100px;
+    
+}
+ .productcard2 img{
+    display: flex;
+    margin-left: 10px;
+} 
+.boAt{
+    color: white;
+    display: flex;
+     margin-left: 30px; 
+     margin-top: 190px;
+   padding-left: 5px; 
+    font-size: medium;
+}
+.pricing1{
+    color: white;
+     margin-left: 40px; 
+    font-size:large; 
+}
+ .productcard3{
+    margin-left: 100px; 
+}
+.productcard3 img{
+    display: flex;
+    margin-left: 20px;  
+}
+.Rockerz{
+    color: white;
+    display: flex;
+     margin-left:40px; 
+     margin-top: 150px;
+   padding-left: 5px; 
+    font-size:x-large;
+}
+.pricing2{
+    color: white;
+    margin-left: 25px;
+    font-size:xx-large;
+}
+.topProductsHeading{
+    text-align: center;
+    color: rgb(207,225,240);
+    margin-top: 100px;
+}
+.topProductButtons{
+    margin-top: 60px;
+    border: none;
+    padding: 10px;
+    margin-left: 300px;
+    display: flex;
+    gap:100px;
+}
+.topBtn1{
+    width: 80px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.topBtn2{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.topBtn2:hover{
+    background-color: red;
+}
+.topBtn3{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.topBtn3:hover{
+    background-color: red;
+}
+.topBtn4{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.topBtn4:hover{
+    background-color: red;
+}
+.topBtn5{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.topBtn5:hover{
+    background-color: red;
+}
+.topProductsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 55px 0px 10px 15px;
+}
+.productCard{
+    width:300px;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+.productCard img{
+    width:90%;
+    height:250px;
+    object-fit: cover;
+    background-color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Rating,.productDetails{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Rating{
+    color: red;
+}
+.productDetails b{
+    font-size: larger;
+}
+.productDetails p{
+    font-size: smaller;
+    color: rgb(207,225,240);
+}
+hr{
+    margin-right: 10px;
+}
+.productDetails .offerPrice{
+    font-size: x-large;
+}
+.productDetails .actualPrice{
+    color:rgb(139, 164, 185)
+}
+.productDetails button{
+    width:90%;
+    padding:8px;
+    background-color: red;
+    margin-bottom: 10px;
+    border: none;
+}
+.topProductsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 70px;
+}
+.productDetails h4{
+    text-align: center;
+    font-size:xx-large;
+    margin-top: 210px;
+}
+.OurAdvantages{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 100px;
+    gap:50px;
+}
+.ourAdvantagesHeading{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.ourAdvantages1{
+    display: flex;
+    border: 1px solid black;
+    border: none;
+    width: 250px;
+}
+.ourAdvantagesicon{
+    color: red;
+     display: flex; 
+    margin-top: 35px;
+    margin-right: 50px;
+    font-size: xx-large;
+    /* width: 100px;
+    height: 100px; */
+}
+.ourAdvantagescontent{
+    color: white;
+}
+
+.footerSection{
+    background-color: black;
+    display: flex;
+    margin-top: 30px;
+}
+.footerSectionBtn{
+    color: white;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+.footerSectionContent1{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.email{
+    height: 50px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.footerSectionContent2{
+    color: white;
+    display: flex;
+    margin-left: 90px;
+    width: 300px;
+}
+.content2Heading{
+    display: flex;
+    /* margin-left: 50px; */
+}
+nav h2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+nav ul{
+    list-style: none;
+    margin-top: 50px;
+}
+nav ul li{
+     padding: 7px; 
+    margin-right: 200px;
+    font-size: smaller;
+}
+.footerSection2{
+    /* background-color: black; */
+    color: white;
+    display: flex;
+}
+.footericons{
+    display: flex;
+    margin-left: 750px;
+    gap: 30px;
+    margin-top: 10px;
+}
+

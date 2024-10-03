@@ -1,0 +1,183 @@
+.navbar{
+    display: flex;
+    background-color: rgb(6, 4, 4);
+    /* border-radius:100px; */
+}
+.TechShop{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 5%;
+}
+.TechShop h2{
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 1000px;
+}
+.icons{
+    color: rgb(246, 238, 238);
+    display: flex;
+    gap: 50px;
+}
+hr{
+    color: rgb(42, 41, 41);
+}
+.cartProducts{
+    background-color: rgb(24, 23, 23);
+    border: 1px solid black;
+    width: 700px;
+    height: 1200px;
+    margin-left: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 600px;
+    margin-top: 100px;
+}
+.cartProduct1{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 80px;
+    /* display: flex;
+    flex-direction: row; */
+}
+.cartcontent{
+    color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.offerPrice{
+    font-size: xx-large;
+}
+.cartbtns{
+    width:95px;
+    border: 1px solid white;
+}
+.cartbtn1{
+    color:white;
+    background-color: rgb(62, 62, 62);
+}
+.cartbtn2{
+    width: 40px;
+    color: red;
+    background-color: black;
+}
+.cartbtn3{
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+.cartDelete{
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.container{
+    display: flex;
+}
+.cartitemheading{
+    color: white;
+    border: 1px solid rgb(15, 14, 14);
+    width: 400px;
+    height: 400px;
+  margin-left: 150px;
+  margin-top: 180px;
+}
+hr{
+    width: 390px;
+    padding-right: 50px;
+}
+.heading{
+    font-size: x-large;
+}
+.cartdetails{
+    font-size: x-large;
+}
+.cart{
+    display: flex;
+}
+.cartPrices{
+    margin-left: 100px;
+    font-size: x-large;
+}
+.offerprice{
+    color: green;
+}
+.free{
+    color: green;
+}
+.price{
+    display: flex;
+}
+.offer{
+    margin-left: 50px;
+    font-size: x-large;
+
+}
+.checkout{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin-left: 40px;
+}
+.footerSection{
+    background-color: black;
+    display: flex;
+    margin-top: 150px;
+}
+.footerSectionBtn{
+    color: white;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+.footerSectionContent1{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+.email{
+    height: 50px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.footerSectionContent2{
+    color: white;
+    display: flex;
+    margin-left: 90px;
+}
+.content2Heading{
+    display: flex;
+    /* margin-left: 50px; */
+}
+nav h2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+nav ul{
+    list-style: none;
+    margin-top: 50px;
+}
+nav ul li{
+     padding: 7px; 
+    margin-right: 200px;
+    font-size: smaller;
+}
+.footerSection2{
+    /* background-color: black; */
+    color: white;
+    display: flex;
+}
+.footericons{
+    display: flex;
+    margin-left: 750px;
+    gap: 30px;
+    margin-top: 10px;
+}
+

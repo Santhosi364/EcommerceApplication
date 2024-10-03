@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+.signupPage{
+    background-color: black;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.xmark{
+    color: white;
+    margin-left: 390px;
+    margin-top: 3px;
+}
+.pageheading{
+    color: white;
+    padding-top: 20px;
+    margin-left: 50px;
+    /* margin-top: 100px; */
+}
+.userDetails .username{
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    margin-left: 50px;
+}
+.userDetails .email{
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    margin-left: 50px;
+}
+.userDetails .password{
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    margin-left: 50px;
+}
+.userDetails .confirmPassword{
+    color: white;
+    border: 1px solid white;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+    margin-left: 50px;
+}
+.signupbtn{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+.Loginbtn p{
+    color: white;
+    padding-left: 150px;
+}
+.facebookbtn{
+   background-color: blue;
+   color: white;
+   margin-left: 50px;
+   width: 90px;
+   height: 40px;
+}
+.googlebtn{
+    background-color: rgb(244, 11, 11);
+    color: white;
+    margin-left: 10px;
+    width: 90px;
+    height: 40px;
+ }
+ .twitterbtn{
+    background-color: rgb(113, 113, 249);
+    color: white;
+    margin-left: 10px;
+    width: 90px;
+    height: 40px;
+ }
